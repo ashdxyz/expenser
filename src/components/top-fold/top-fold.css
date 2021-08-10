@@ -1,0 +1,83 @@
+.topfold {
+  display: flex;
+  justify-content: space-between;
+  margin: 6px 12px;
+  padding: 12px 0px;
+  align-items: center;
+}
+.home-topfold {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.page-title{
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+.searchbar {
+  display: flex;
+  align-items:center;
+  width: 80%;
+  background-color: #c7c7eb;
+  border-radius: 2px;
+  margin-top: 50px;
+}
+.searchbar input {
+  width: 100%;
+  outline: none;
+  font-size: 18px;
+  padding: 12px 0px;
+  border: none;
+  margin-left: 6px;
+  background-color: #dddded;
+}
+
+.searchbar i {
+  display: flex;
+  align-items: center;
+  margin-left: 6px;
+}
+
+.add-button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.icon-button-label{
+  padding: 8px;
+  font-size: 18px;
+}
+
+.add-icon {
+  display: flex;
+  align-items: center;
+}
+.add-topfold {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+.add-topfold-button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+@media only screen and (max-width: 1024px) {
+  .add-button {
+    font-size: 18px;
+  }
+  .searchbar {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  .add-button {
+    font-size: 16px;
+  }
+}
